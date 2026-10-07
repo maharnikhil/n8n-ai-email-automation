@@ -41,7 +41,7 @@ The workflow is designed to:
 
 # 🏗️ Workflow Architecture
 
-![Complete Workflow](<automation-setup.png>)
+![Complete Workflow](https://raw.githubusercontent.com/maharnikhil/n8n-ai-email-automation/main/Screenshots/workflow.png)
 
 The workflow connects multiple services into a single automated email-processing pipeline.
 
