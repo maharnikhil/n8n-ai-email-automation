@@ -523,8 +523,6 @@ Connecting multiple external services into a single automated workflow.
 ```text
 n8n-ai-email-automation/
 │
-├── README.md
-│
 └── Screenshots/
     ├── automation-setup.png
     ├── writing-email.png
@@ -536,6 +534,9 @@ n8n-ai-email-automation/
     ├── press-send.png
     ├── draft-sent.png
     └── delivered.png
+├── README.md
+│
+
 ```
 
 ---
