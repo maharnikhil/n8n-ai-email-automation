@@ -660,12 +660,14 @@ The final system automates repetitive email-processing tasks while maintaining h
 
 ---
 
-# 👨‍💻 Author
+## Author
 
 **Nikhil Singh Mahar**
 
-GitHub: [@maharnikhil](https://github.com/maharnikhil)
+GitHub: `https://github.com/maharnikhil`
+
+LinkedIn: https://www.linkedin.com/in/nikhilsinghmahar/
+
+Mail: nikhilsinghmahar1234@gmail.com
 
 ---
-
-⭐ **If you found this project interesting, feel free to explore the workflow and implementation.**
