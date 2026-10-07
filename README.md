@@ -535,7 +535,7 @@ n8n-ai-email-automation/
     ├── draft-sent.png
     └── delivered.png
 ├── README.md
-│
+
 
 ```
 
@@ -559,7 +559,6 @@ A production implementation would require additional considerations such as:
 - Prompt-injection protection
 - Sensitive information handling
 
-API keys, credentials, tokens, and other private configuration values should never be committed to a public repository.
 
 ---
 
@@ -626,7 +625,6 @@ Through this project, I explored and practiced:
 
 - n8n workflow automation
 - AI Agents
-- OpenAI integrations
 - Prompt-based AI processing
 - Embeddings
 - Vector databases
