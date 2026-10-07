@@ -41,7 +41,7 @@ The workflow is designed to:
 
 # 🏗️ Workflow Architecture
 
-![Complete Workflow](<Automation-Setup.png>)
+![Complete Workflow](<automation-setup.png>)
 
 The workflow connects multiple services into a single automated email-processing pipeline.
 
