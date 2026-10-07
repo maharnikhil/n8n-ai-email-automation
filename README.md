@@ -368,7 +368,7 @@ When press save draft, it is stored in a gmail draft folder before the final res
 
 ## Draft Review
 
-![Draft Review](<Screenshots/edit-or-review draft.png>)
+![Draft Review](<Screenshots/edit-or-review-draft.png>)
 
 The reviewer can inspect the generated response and modify it when necessary.
 
