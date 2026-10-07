@@ -103,7 +103,7 @@ The workflow starts when a new email arrives in the connected Gmail inbox.
 
 The **Gmail Trigger** detects the incoming message and starts the automation.
 
-![Incoming Email](delivered.png)
+![Incoming Email](Screenshots/delivered.png)
 
 The screenshot demonstrates the incoming email that initiates the workflow.
 
@@ -233,7 +233,7 @@ This helps the generated response use information relevant to the specific busin
 
 After the AI Agent generates the response, the workflow creates a **draft in Gmail** instead of immediately sending the email.
 
-![Gmail Draft Created](<draft saved in mail.png>)
+![Gmail Draft Created](<Screenshots/draft-saved-in-mail.png>)
 
 Creating a draft creates an additional control point between AI generation and final communication.
 
@@ -243,7 +243,7 @@ The reviewer can inspect the generated response before it reaches the customer.
 
 ## 📄 Saved Draft
 
-![Saved Draft](<draft saved.png>)
+![Saved Draft](<Screenshots/draft-saved.png>)
 
 The response is stored as a Gmail draft and remains available for review before sending.
 
@@ -275,7 +275,7 @@ This provides an additional level of control over AI-generated communication.
 
 # 📝 Edit or Review Draft
 
-![Edit or Review Draft](<edit or review draft.png>)
+![Edit or Review Draft](<Screenshots/edit-or-review-draft.png>)
 
 The reviewer can inspect the generated response and make changes when necessary.
 
@@ -296,7 +296,7 @@ Telegram is used as a notification and review channel.
 
 When a draft is ready, the workflow sends a notification through Telegram.
 
-![Telegram Notification](<notification from telegram.png>)
+![Telegram Notification](<Screenshots/notification-from-telegram.png>)
 
 This allows the reviewer to quickly identify when a response is ready for review.
 
@@ -306,7 +306,7 @@ This allows the reviewer to quickly identify when a response is ready for review
 
 The reviewer can interact with the workflow through Telegram to access the draft and continue the approval process.
 
-![Telegram Review](<press draft.png>)
+![Telegram Review](<Screenshots/press-draft.png>)
 
 The review step creates a simple human approval layer between AI-generated content and the final customer response.
 
@@ -316,7 +316,7 @@ The review step creates a simple human approval layer between AI-generated conte
 
 Once the response has been reviewed and approved, the workflow sends the final email.
 
-![Send Final Response](<press send.png>)
+![Send Final Response](<Screenshots/press-send.png>)
 
 The complete process becomes:
 
@@ -348,7 +348,7 @@ Final Email
 
 ## Incoming Email
 
-![Incoming Email](delivered.png)
+![Incoming Email](Screenshots/writing-mail.png)
 
 A new email arrives in Gmail and triggers the automation workflow.
 
@@ -356,7 +356,7 @@ A new email arrives in Gmail and triggers the automation workflow.
 
 ## AI-Generated Gmail Draft
 
-![Generated Gmail Draft](<draft saved in mail.png>)
+![Generated Gmail Draft](<Screenshots/draft-saved-in-mail.png>)
 
 The generated response is automatically saved as a draft in Gmail.
 
@@ -364,7 +364,7 @@ The generated response is automatically saved as a draft in Gmail.
 
 ## Draft Saved
 
-![Draft Saved](<draft saved.png>)
+![Draft Saved](<Screenshots/draft-saved.png>)
 
 The draft is stored before the final response is sent.
 
@@ -372,7 +372,7 @@ The draft is stored before the final response is sent.
 
 ## Draft Review
 
-![Draft Review](<edit or review draft.png>)
+![Draft Review](<Screenshots/edit-or-review draft.png>)
 
 The reviewer can inspect the generated response and modify it when necessary.
 
@@ -380,7 +380,7 @@ The reviewer can inspect the generated response and modify it when necessary.
 
 ## Telegram Notification
 
-![Telegram Notification](<notification from telegram.png>)
+![Telegram Notification](<Screenshots/notification-from-telegram.png>)
 
 Telegram is used to notify the reviewer that a generated response is ready.
 
@@ -388,7 +388,7 @@ Telegram is used to notify the reviewer that a generated response is ready.
 
 ## Telegram Review Action
 
-![Telegram Review](<press draft.png>)
+![Telegram Review](<Screenshots/press-draft.png>)
 
 The reviewer can access and review the response through the Telegram interaction.
 
@@ -396,7 +396,7 @@ The reviewer can access and review the response through the Telegram interaction
 
 ## Send Action
 
-![Send Action](<press send.png>)
+![Send Action](<Screenshots/press-send.png>)
 
 The reviewer approves the response and triggers the final sending step.
 
@@ -404,7 +404,7 @@ The reviewer approves the response and triggers the final sending step.
 
 ## Final Sent Response
 
-![Final Response](<draft sent.png>)
+![Final Response](<Screenshots/draft-sent.png>)
 
 The approved response is sent to the customer.
 
@@ -412,7 +412,7 @@ The approved response is sent to the customer.
 
 ## Email Writing Stage
 
-![Writing Email](<writing mail.png>)
+![Writing Email](<Screenshots/writing-mail.png>)
 
 This demonstrates the email-writing stage of the automation workflow.
 
@@ -545,16 +545,17 @@ n8n-ai-email-automation/
 │
 ├── README.md
 │
-├── Automation Setup.png
-├── delivered.png
-├── draft saved in mail.png
-├── draft saved.png
-├── draft sent.png
-├── edit or review draft.png
-├── notification from telegram.png
-├── press draft.png
-├── press send.png
-└── writing mail.png
+└── Screenshots/
+    ├── automation-setup.png
+    ├── writing-email.png
+    ├── notification-from-telegram.png
+    ├── press-draft.png
+    ├── draft-saved.png
+    ├── draft-saved-in-mail.png
+    ├── edit-or-review-draft.png
+    ├── press-send.png
+    ├── draft-sent.png
+    └── delivered.png
 ```
 
 ---
