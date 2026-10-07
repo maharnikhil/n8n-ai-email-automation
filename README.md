@@ -103,7 +103,7 @@ The workflow starts when a new email arrives in the connected Gmail inbox.
 
 The **Gmail Trigger** detects the incoming message and starts the automation.
 
-![Incoming Email](Screenshots/delivered.png)
+![Incoming Email](Screenshots/writing-mail.png)
 
 The screenshot demonstrates the incoming email that initiates the workflow.
 
@@ -233,19 +233,15 @@ This helps the generated response use information relevant to the specific busin
 
 After the AI Agent generates the response, the workflow creates a **draft in Gmail** instead of immediately sending the email.
 
-![Gmail Draft Created](<Screenshots/draft-saved-in-mail.png>)
-
 Creating a draft creates an additional control point between AI generation and final communication.
 
 The reviewer can inspect the generated response before it reaches the customer.
 
----
-
-## 📄 Saved Draft
-
-![Saved Draft](<Screenshots/draft-saved.png>)
+![Save Draft](<Screenshots/draft-saved.png>)
 
 The response is stored as a Gmail draft and remains available for review before sending.
+
+![Saved Draft in Mail](<Screenshots/draft-saved-in-mail.png>)
 
 ---
 
@@ -294,7 +290,7 @@ The reviewer can:
 
 Telegram is used as a notification and review channel.
 
-When a draft is ready, the workflow sends a notification through Telegram.
+When a you get a mail it prepare the draft automatically and provide information and written draft, the workflow sends a notification through Telegram.
 
 ![Telegram Notification](<Screenshots/notification-from-telegram.png>)
 
@@ -308,7 +304,7 @@ The reviewer can interact with the workflow through Telegram to access the draft
 
 ![Telegram Review](<Screenshots/press-draft.png>)
 
-The review step creates a simple human approval layer between AI-generated content and the final customer response.
+The review step creates a simple human approval layer between AI-generated content and the final customer response. user now can save it as a draft to review or edit later. if draft matches the desired response, you can send it directly.
 
 ---
 
@@ -354,11 +350,11 @@ A new email arrives in Gmail and triggers the automation workflow.
 
 ---
 
-## AI-Generated Gmail Draft
+## Telegram Notification
 
-![Generated Gmail Draft](<Screenshots/draft-saved-in-mail.png>)
+![Generated Gmail Draft](<Screenshots/notification-from-telegram.png>)
 
-The generated response is automatically saved as a draft in Gmail.
+The generated response is automatically sent to your telegram to review and save it as a draft or send immediately.
 
 ---
 
@@ -366,7 +362,7 @@ The generated response is automatically saved as a draft in Gmail.
 
 ![Draft Saved](<Screenshots/draft-saved.png>)
 
-The draft is stored before the final response is sent.
+When press save draft, it is stored in a gmail draft folder before the final response.
 
 ---
 
@@ -378,27 +374,11 @@ The reviewer can inspect the generated response and modify it when necessary.
 
 ---
 
-## Telegram Notification
-
-![Telegram Notification](<Screenshots/notification-from-telegram.png>)
-
-Telegram is used to notify the reviewer that a generated response is ready.
-
----
-
-## Telegram Review Action
-
-![Telegram Review](<Screenshots/press-draft.png>)
-
-The reviewer can access and review the response through the Telegram interaction.
-
----
-
 ## Send Action
 
 ![Send Action](<Screenshots/press-send.png>)
 
-The reviewer approves the response and triggers the final sending step.
+If the reviewer approves the response, he can send draft directly from telegram.
 
 ---
 
@@ -410,11 +390,11 @@ The approved response is sent to the customer.
 
 ---
 
-## Email Writing Stage
+## Email Delivered
 
-![Writing Email](<Screenshots/writing-mail.png>)
+![Writing Email](<Screenshots/delivered.png>)
 
-This demonstrates the email-writing stage of the automation workflow.
+This demonstrates the final stage of the automation workflow.
 
 ---
 
