@@ -619,25 +619,6 @@ This approach can reduce repetitive manual work while maintaining human control 
 
 ---
 
-# 📚 What I Learned
-
-Through this project, I explored and practiced:
-
-- n8n workflow automation
-- AI Agents
-- Prompt-based AI processing
-- Embeddings
-- Vector databases
-- Supabase Vector Store
-- Retrieval-Augmented Generation
-- Gmail automation
-- Telegram automation
-- Human-in-the-loop AI systems
-- API integrations
-- Business process automation
-
----
-
 # 🎯 Project Outcome
 
 This project demonstrates how AI can be integrated into a **real-world business workflow** instead of being used only as a standalone chatbot.
