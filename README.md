@@ -535,8 +535,6 @@ n8n-ai-email-automation/
     ├── draft-sent.png
     └── delivered.png
 ├── README.md
-
-
 ```
 
 ---
